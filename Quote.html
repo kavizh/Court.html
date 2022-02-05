@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:100vh;
+            width:100%;         
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        p{
+            font-size: 50px;
+            padding:2rem;
+            color:aliceblue;
+            text-align: center;
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/33825/milky-way-rocks-night-landscape.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-size: cover;
+        }
+        a{
+            color:black;
+            background-color: aliceblue;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 20%;
+            transition: all 1s;
+        }
+        a:hover{
+            background-color: black;
+            color: aliceblue;
+            letter-spacing: 2px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+            <p id="text">
+            </p>
+            <a href="#text" class="btn" onclick="Kavish()">Get new quote</a>
+       
+    
+    </div>
+    <script src="Quote.js"></script>
+</body>
+</html>
